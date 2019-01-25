@@ -63,5 +63,5 @@ Click on the element using [Javascript](/display/KD/%5BWebUI%5D+Execute+JavaScri
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
  
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
-WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 ```
